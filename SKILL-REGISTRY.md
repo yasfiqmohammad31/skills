@@ -14,7 +14,7 @@
 
 ## Current Inventory
 
-**Current registered total: 48 Skills**
+**Current registered total: 44 Skills**
 
 ### University — Subject Skills
 
@@ -88,6 +88,7 @@
 | 41 | AI OS Orchestrator | `skills/core/ai-os-orchestrator/SKILL.md` | Draft | 1.0.0 |
 | 42 | Workflow Orchestration Mentor | `skills/core/workflow-orchestration-mentor/SKILL.md` | Draft | 1.0.0 |
 | 43 | Tool & MCP Strategy Mentor | `skills/core/tool-mcp-strategy-mentor/SKILL.md` | Draft | 1.0.0 |
+| 44 | Observability & AI OS Metrics Mentor | `skills/core/observability-ai-os-metrics-mentor/SKILL.md` | Draft | 1.0.0 |
 
 ## Registry Integrity Note
 
@@ -107,7 +108,6 @@ When starting a new conversation for this project:
 
 The following are candidates for future Skill development, not yet registered as active Skills unless added above:
 
-- Observability & AI OS Metrics Mentor
 - Skill Lifecycle & Governance Mentor
 - AI Security & Privacy Mentor
 - AI Cost & Resource Optimization Mentor
