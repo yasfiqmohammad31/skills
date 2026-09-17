@@ -33,36 +33,87 @@ The student prefers a combination of:
 - Socratic questioning
 - independent practice
 
-## 4. Official Course Scope
+## 4. Current Course Evidence
 
-**Status: not yet populated.**
+### Session 1 — Lecturer material
 
-Do not treat a generic Electrical Engineering topic list as the official IEE syllabus.
+Source: `COURSE-MATERIALS.md` → Source 01.
 
-When the student provides any of the following, update this section or add structured records below:
+Confirmed topics:
 
-- syllabus / RPS
-- learning outcomes
-- weekly topics
-- lecture slides
-- lecturer notes
-- textbook chapters explicitly assigned
-- assignment requirements
-- exam scope
+- What is Electrical Engineering?
+- Why Electrical Engineering is important
+- Main disciplines / fields of Electrical Engineering
+- Electrical Engineering around us
+- Electrical Engineering in industry
+- Career opportunities
+- Course introduction
 
-## 5. Weekly Progress
+The material explicitly groups major disciplines into Power and Energy Systems; Signal, Communications, and Electronics; and Control System and Computing. It also gives industry examples and career examples.
 
-| Week | Topic | Status | Confidence | Evidence / Notes |
+Assessment weights explicitly shown:
+
+- UAS: 25%
+- UTS: 25%
+- Individual assignments: 20%
+- Group assignments: 20%
+- Attendance: 10%
+
+### Session 2 — Lecturer material
+
+Source: `COURSE-MATERIALS.md` → Source 02.
+
+Confirmed topics:
+
+- History of Electrical Engineering
+- Early discovery of electricity
+- Scientific era of electricity
+- Scientific era of electromagnetism
+- DC and AC power
+- Telecommunications
+- Electronics
+- Computer and digital era
+- Future of Electrical Engineering
+- Course introduction
+
+Historical contributors/milestones explicitly covered include Thales of Miletus; William Gilbert; Benjamin Franklin; Luigi Galvani; Alessandro Volta; Hans Christian Orsted; André-Marie Ampère; Michael Faraday; James Clerk Maxwell; Thomas Edison; Nikola Tesla; George Westinghouse; Samuel Morse; Alexander Graham Bell; Guglielmo Marconi; John Bardeen; Walter Brattain; Walter Shockley; integrated circuits; Intel 4004; personal computers; and Internet expansion.
+
+Future-focused topics explicitly shown:
+
+- Renewable Energy
+- Smart Grid
+- Electric Vehicles
+- Artificial Intelligence
+- Industry 4.0
+- Quantum Computing
+
+## 5. Course Scope Status
+
+**Status: partially populated from lecturer-provided materials.**
+
+The two current sources are authoritative evidence for content introduced so far. They do **not** constitute the complete IEE syllabus.
+
+Do not infer calendar-week placement from the labels `Session 1` and `Session 2`. The user has not yet provided the mapping between session numbers and course weeks.
+
+Do not claim that quantitative circuit-analysis topics such as Ohm's law, Kirchhoff's laws, series/parallel analysis, or electronics calculations have already been taught unless a later lecturer source explicitly supports that claim.
+
+When additional lecturer material is supplied, extend this context and update the topic/progress records rather than replacing earlier history.
+
+## 6. Weekly / Session Progress
+
+| Course unit | Topic | Status | Confidence | Evidence / Notes |
 |---|---|---|---:|---|
-| 1 | TBD | pending | — | — |
-| 2 | TBD | pending | — | — |
-| 3 | TBD | pending | — | — |
-| 4 | TBD | pending | — | — |
-| 5 | TBD | pending | — | — |
-| 6 | TBD | pending | — | — |
-| 7 | TBD | pending | — | — |
+| Session 1 | Introduction, definition, disciplines, applications, industry, careers | introduced | high | Lecturer slide deck |
+| Session 2 | History, electromagnetism milestones, AC/DC, telecom, electronics, computing, future | introduced | high | Lecturer slide deck |
+| Week 1 | TBD | unknown | — | Calendar mapping not yet provided |
+| Week 2 | TBD | unknown | — | Calendar mapping not yet provided |
+| Week 3 | TBD | unknown | — | Calendar mapping not yet provided |
+| Week 4 | TBD | unknown | — | Calendar mapping not yet provided |
+| Week 5 | TBD | unknown | — | Calendar mapping not yet provided |
+| Week 6 | TBD | unknown | — | Calendar mapping not yet provided |
+| Week 7 | TBD | unknown | — | Calendar mapping not yet provided |
 
-## 6. Known Difficulties
+## 7. Known Difficulties
 
 Initial hypotheses from assessment, to be validated through actual sessions:
 
@@ -73,7 +124,7 @@ Initial hypotheses from assessment, to be validated through actual sessions:
 
 These are starting hypotheses, not permanent labels.
 
-## 7. Learning Evidence
+## 8. Learning Evidence
 
 Record evidence such as:
 
@@ -87,9 +138,11 @@ Record evidence such as:
 
 Do not store raw conversation transcripts here unless they are intentionally converted into durable learning evidence.
 
-## 8. Context Update Rules
+## 9. Context Update Rules
 
 - Prefer the newest user-provided course information.
 - Mark outdated information as superseded rather than silently replacing important history.
 - Never invent missing course information.
 - Keep official course facts distinct from enrichment material.
+- When a concept is introduced in class, mark it as `Course Core`.
+- When the Skill teaches an extension for deeper understanding, mark it as `Beyond Curriculum` unless later confirmed as course material.
