@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0-iee-pilot — 2026-09-17
+
+- Added the first production-pilot Skill: `university/introduction-electrical-engineering/`.
+- Added a canonical behavioral contract in `SKILL.md`.
+- Added mutable course/student context in `CONTEXT.md`.
+- Added a 12-case regression evaluation suite under `evals/university/`.
+- Defined subject isolation, simple-first pedagogy, active recall, graduated hints, error diagnosis, engineering reasoning, artifact outputs, verification, and human-in-the-loop behavior.
+- Explicitly kept official syllabus assumptions separate from provisional engineering enrichment.
+
 ## 0.2.0-architecture — 2026-09-17
 
 - Expanded AI OS architecture into a conceptual v1.0 baseline.
