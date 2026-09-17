@@ -14,7 +14,7 @@
 
 ## Current Inventory
 
-**Current registered total: 46 Skills**
+**Current registered total: 47 Skills**
 
 ### University — Subject Skills
 
@@ -91,6 +91,7 @@
 | 44 | Observability & AI OS Metrics Mentor | `skills/core/observability-ai-os-metrics-mentor/SKILL.md` | Draft | 1.0.0 |
 | 45 | Skill Lifecycle & Governance Mentor | `skills/core/skill-lifecycle-governance-mentor/SKILL.md` | Draft | 1.0.0 |
 | 46 | AI Security & Privacy Mentor | `skills/core/ai-security-privacy-mentor/SKILL.md` | Draft | 1.0.0 |
+| 47 | AI Cost & Resource Optimization Mentor | `skills/core/ai-cost-resource-optimization-mentor/SKILL.md` | Draft | 1.0.0 |
 
 ## Registry Integrity Note
 
@@ -110,7 +111,6 @@ When starting a new conversation for this project:
 
 The following are candidates for future Skill development, not yet registered as active Skills unless added above:
 
-- AI Cost & Resource Optimization Mentor
 - additional core governance/operations capabilities identified during architecture development
 
 These are intentionally listed as a roadmap rather than counted as existing Skills.
