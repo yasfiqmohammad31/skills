@@ -31,9 +31,14 @@ Use lowercase kebab-case directory names. Each production Skill lives in its own
 - `cross-domain/information-literacy/` — source evaluation and verification.
 - `cross-domain/english-for-engineer/` — engineering English across reading, writing, listening, and speaking.
 
+### Builder
+
+- `builder/coding-mentor/` — software implementation, debugging, review, testing, and AI-assisted coding.
+- `builder/product-builder/` — problem framing, product definition, MVP scope, prototyping, validation, and iteration.
+
 ## Architecture Rule
 
-Subject Skills own course-specific behavior and context. Cross-Domain Skills own reusable capabilities and should not duplicate course-specific knowledge.
+Subject Skills own course-specific behavior and context. Cross-Domain Skills own reusable capabilities and should not duplicate course-specific knowledge. Builder Skills own reusable building capabilities and coordinate with Subject, Cross-Domain, Business, and Content Skills rather than absorbing their responsibilities.
 
 Subject Skills can be scaffolded before course materials exist. Lecturer materials are added later to `CONTEXT.md` and `COURSE-MATERIALS.md` without requiring a new Skill.
 
