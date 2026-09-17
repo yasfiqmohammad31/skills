@@ -4,24 +4,40 @@ Personal AI Operating System for learning, engineering, building products, caree
 
 ## Purpose
 
-Yasfiq AI OS is a portable, platform-agnostic collection of modular AI Skills, workflows, templates, context, adapters, and evaluations. Markdown is the source of truth; platform-specific implementations are adapters.
+Yasfiq AI OS turns AI from a collection of tools into a modular personal capability system. Markdown is the source of truth; platform-specific implementations are adapters.
+
+The current strategic direction is **AI-Powered Global Engineer**: combining software, AI, Electrical Engineering, IoT/robotics, English, and entrepreneurship.
+
+## Architecture Status
+
+**Architecture baseline: v1.0 — frozen for initial implementation**
+
+The conceptual architecture defines:
+
+- AI OS entrypoint
+- layered context and memory
+- intent routing
+- priority and energy-aware scheduling
+- modular Skills
+- reusable workflows
+- tool registry and platform adapters
+- verification and human approval
+- artifact lifecycle
+- evaluation and observability
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) and the design documents under `docs/`.
 
 ## Design Principles
 
 - Portable first, platform second.
 - One academic subject = one isolated Subject Skill.
 - Cross-subject capabilities live in reusable Skills.
-- AI should amplify learning and execution, not replace understanding.
+- AI amplifies learning and execution; it does not replace understanding.
 - Prefer workflows over isolated prompts.
-- Every important Skill has an explicit output contract and evaluation cases.
-- Tool choice follows the workflow; AI hype does not determine architecture.
-- Personal, university, business, content, and company-work contexts must remain separated.
-
-## Current Status
-
-Version: 0.1.0-foundation
-
-This repository currently contains the architecture and operating conventions. Individual Skills will be added incrementally.
+- Tool choice follows workflow, not hype.
+- Important work should create durable, reusable artifacts.
+- Personal, university, business, content, and company-work contexts stay separated.
+- Production Skills are versioned and evaluated.
 
 ## Initial Domains
 
@@ -34,21 +50,22 @@ This repository currently contains the architecture and operating conventions. I
 - Platform adapters
 - Evaluations
 
-## Important Boundary
-
-AI Context Orchestrator is intentionally NOT part of this architecture as a Skill Factory at this stage. Integration can be designed as a later phase after the core AI OS has been validated through real use.
-
 ## Repository Map
 
 ```text
 core/       Personal context and operating principles
 skills/     Modular AI capabilities
 workflows/  Reusable procedures connecting Skills
-
 templates/  Standardized input/output artifacts
 adapters/   Platform-specific deployment instructions
-
 evals/      Behavioral tests and regression cases
+docs/       Architecture specifications and design contracts
 ```
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for the system design.
+## Important Boundary
+
+AI Context Orchestrator is intentionally **not** part of the current Skill Factory architecture. Any integration will be considered later, after the core AI OS is validated through real use.
+
+## Next Phase
+
+Build the first production Skill — **Introduction to Electrical Engineering** — and use it as the first end-to-end validation of the architecture.
