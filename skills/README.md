@@ -15,6 +15,12 @@ Use lowercase kebab-case directory names. Each production Skill lives in its own
 - `content/` — content and personal-brand capabilities
 - `life-os/` — personal productivity and orchestration capabilities
 
+## Active Skills
+
+### University
+
+- `university/introduction-electrical-engineering/` — Semester 1 IEE pilot Skill.
+
 ## Current State
 
-Architecture is established first. Skills will be added incrementally and evaluated through real use.
+The architecture is established and the first production-pilot Skill is now defined. Skills are added incrementally and evaluated through real use plus regression cases under `evals/`.
