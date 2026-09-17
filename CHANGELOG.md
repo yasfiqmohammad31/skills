@@ -5,7 +5,9 @@
 - Added the first production-pilot Skill: `university/introduction-electrical-engineering/`.
 - Added a canonical behavioral contract in `SKILL.md`.
 - Added mutable course/student context in `CONTEXT.md`.
-- Added a 12-case regression evaluation suite under `evals/university/`.
+- Added `COURSE-MATERIALS.md` to register lecturer-provided Session 1 and Session 2 materials.
+- Updated the IEE Skill to v1.1.0 to distinguish confirmed course-core topics from provisional engineering capability scope.
+- Added source-grounded regression cases covering current lecture content, assessment structure, scope boundaries, and calendar-week uncertainty.
 - Defined subject isolation, simple-first pedagogy, active recall, graduated hints, error diagnosis, engineering reasoning, artifact outputs, verification, and human-in-the-loop behavior.
 - Explicitly kept official syllabus assumptions separate from provisional engineering enrichment.
 
