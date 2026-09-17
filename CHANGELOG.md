@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0-skill-layer — 2026-09-17
+
+- Added reusable `templates/subject-skill/SKILL.md` so Subject Skills can be scaffolded before course materials exist.
+- Added university Subject Skill scaffolds for Computational Thinking and Programming, Renewable Energy and Solar Panel Foundation, and Career Design and Professional Development 1.
+- Added Cross-Domain Skills: Learning Coach, Research Mentor, Information Literacy, and English for Engineer.
+- Established the separation between Skill behavior/engine and mutable course context/materials.
+- Updated the Skill inventory documentation and lifecycle guidance.
+- Intentionally deferred course-material enrichment until the user supplies materials.
+
 ## 0.3.0-iee-pilot — 2026-09-17
 
 - Added the first production-pilot Skill: `university/introduction-electrical-engineering/`.
