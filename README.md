@@ -10,7 +10,7 @@ The current strategic direction is **AI-Powered Global Engineer**: combining sof
 
 ## Architecture Status
 
-**Architecture baseline: v1.0 — frozen for initial implementation**
+**Architecture baseline: v1.0 — implementation in progress**
 
 The conceptual architecture defines:
 
@@ -25,12 +25,13 @@ The conceptual architecture defines:
 - artifact lifecycle
 - evaluation and observability
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) and the design documents under `docs/`.
+See `ARCHITECTURE.md` for the system contract.
 
 ## Design Principles
 
 - Portable first, platform second.
 - One academic subject = one isolated Subject Skill.
+- Subject Skill behavior is separated from mutable course context/materials.
 - Cross-subject capabilities live in reusable Skills.
 - AI amplifies learning and execution; it does not replace understanding.
 - Prefer workflows over isolated prompts.
@@ -39,16 +40,23 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) and the design documents under `docs/`.
 - Personal, university, business, content, and company-work contexts stay separated.
 - Production Skills are versioned and evaluated.
 
-## Initial Domains
+## Skill Layer Status
 
-- University
-- Cross-domain learning and research
-- Builder / engineering / software
-- Business and side income
-- Content and personal branding
-- Life OS / productivity
-- Platform adapters
-- Evaluations
+### University
+
+- Introduction to Electrical Engineering — production pilot.
+- Computational Thinking and Programming — scaffold.
+- Renewable Energy and Solar Panel Foundation — scaffold.
+- Career Design and Professional Development 1 — scaffold.
+
+### Cross-Domain
+
+- Learning Coach — scaffold.
+- Research Mentor — scaffold.
+- Information Literacy — scaffold.
+- English for Engineer — scaffold.
+
+More Builder, Business, Content, and Life OS Skills will be added incrementally.
 
 ## Repository Map
 
@@ -66,6 +74,6 @@ docs/       Architecture specifications and design contracts
 
 AI Context Orchestrator is intentionally **not** part of the current Skill Factory architecture. Any integration will be considered later, after the core AI OS is validated through real use.
 
-## Next Phase
+## Current Phase
 
-Build the first production Skill — **Introduction to Electrical Engineering** — and use it as the first end-to-end validation of the architecture.
+Build the Skill Layer first. Subject Skills may be scaffolded without course materials; materials are added later to course context. The next implementation focus is expanding reusable Cross-Domain, Builder, Business, Content, and Life OS capabilities before deepening individual course contexts.
