@@ -1,6 +1,6 @@
 ---
 name: introduction-electrical-engineering
-version: 1.0.0
+version: 1.1.0
 type: subject
 domain: university
 status: production-pilot
@@ -36,7 +36,7 @@ dependencies:
   - cross-domain/information-literacy
 ---
 
-# Introduction to Electrical Engineering — Skill Specification v1.0
+# Introduction to Electrical Engineering — Skill Specification v1.1
 
 ## 1. Mission
 
@@ -61,9 +61,40 @@ This context is provisional and may be updated through `CONTEXT.md`.
 
 ## 3. Scope
 
-### In Scope
+### 3.1 Course-Core Scope Confirmed by Current Materials
 
-The Skill supports foundational Electrical Engineering learning, including topics present in the user's actual course materials and, when useful, standard prerequisite concepts such as:
+The user's initial lecturer-provided materials establish these topics as currently introduced:
+
+- definition and role of Electrical Engineering
+- importance of Electrical Engineering in society
+- major Electrical Engineering disciplines
+- Power and Energy Systems
+- Signal, Communications, and Electronics
+- Control System and Computing
+- Electrical Engineering around everyday environments
+- Electrical Engineering applications in industry
+- career opportunities in Electrical Engineering
+- history of Electrical Engineering
+- early discovery of electricity
+- scientific era of electricity
+- scientific era of electromagnetism
+- AC and DC power history
+- telecommunications history
+- electronics history
+- computer and digital era
+- future directions of Electrical Engineering
+- Renewable Energy
+- Smart Grid
+- Electric Vehicles
+- Artificial Intelligence
+- Industry 4.0
+- Quantum Computing
+
+These course-core topics are grounded in the current `COURSE-MATERIALS.md` register and are subject to expansion as newer lecturer material is supplied.
+
+### 3.2 Provisional Capability Scope
+
+The Skill may support foundational Electrical Engineering concepts that become relevant to future course material, including:
 
 - electrical quantities and units
 - charge, current, voltage, resistance
@@ -74,16 +105,16 @@ The Skill supports foundational Electrical Engineering learning, including topic
 - series and parallel circuits
 - basic circuit analysis methods
 - DC circuit fundamentals
-- introductory AC concepts when actually relevant to the course
+- introductory AC concepts
 - basic electrical components and their behavior
 - introductory measurement concepts
-- basic electronics concepts when actually present in course scope
+- basic electronics concepts
 - engineering notation, equations, units, dimensional reasoning
 - interpretation of circuit diagrams and simple schematics
 
-The list above is a **provisional capability scope**, not a claim about the lecturer's official syllabus.
+These are **capability provisions only**, not claims that these topics have already been taught.
 
-### Out of Scope by Default
+### 3.3 Out of Scope by Default
 
 Do not silently turn this Skill into a full advanced course on:
 
@@ -98,7 +129,7 @@ Do not silently turn this Skill into a full advanced course on:
 
 Those may be connected only when the user explicitly requests exploration beyond the course or when a prerequisite explanation is necessary.
 
-## 4. Context Authority
+## 4. Source and Context Authority
 
 When sources conflict, prefer evidence in this order:
 
@@ -110,10 +141,12 @@ When sources conflict, prefer evidence in this order:
 
 Never fabricate a lecturer's syllabus, grading rule, terminology, assignment requirement, or exam scope.
 
-If the user asks about the course but no authoritative course material is available, distinguish clearly between:
+When using current lecturer material, distinguish:
 
-- **Course context** — what is known from supplied material.
-- **Engineering enrichment** — standard knowledge added for understanding.
+- **Course Core** — explicitly supported by lecturer-provided material.
+- **Beyond Curriculum** — external or enrichment material used to deepen understanding.
+
+Do not infer calendar-week placement from `Session 1`, `Session 2`, etc. unless the user explicitly supplies that mapping.
 
 ## 5. Core Teaching Philosophy
 
@@ -372,6 +405,8 @@ When the activity benefits from a durable output, produce or recommend an artifa
 - `exam-plan`
 - `assignment-plan`
 - `lab-preparation`
+- `course-timeline`
+- `lecture-note`
 
 Artifacts should be concise, reusable, and linked to the topic studied.
 
@@ -405,8 +440,8 @@ Risk level for normal educational content: medium.
 
 Verification expectations:
 
-- For standard textbook-like facts, reason carefully and cite external sources when external browsing is used.
-- For user-provided course requirements, treat supplied material as authoritative for course context.
+- For user-provided course requirements and topics, treat supplied material as authoritative for course context.
+- For standard textbook-like facts not present in course material, reason carefully and distinguish enrichment from course core.
 - For disputed, unusual, or current technical claims, verify using reliable external sources.
 - For calculations, independently recalculate or sanity-check.
 - Never claim a result was simulated, tested, or sourced unless it actually was.
@@ -469,4 +504,4 @@ Version increments:
 - Minor: new mode, workflow, or non-breaking behavior.
 - Major: changes to scope, routing, context contract, or core teaching behavior.
 
-Do not add course-specific facts to this file when they belong in `CONTEXT.md`.
+Course-specific facts belong in `CONTEXT.md` and `COURSE-MATERIALS.md`, not in this file.
