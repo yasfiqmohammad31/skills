@@ -1,79 +1,84 @@
 # Yasfiq AI OS
 
-Personal AI Operating System for learning, engineering, building products, career development, personal branding, and life productivity.
+Personal collection of modular AI Skills for learning, engineering, building products, career development, personal branding, business, and productivity.
 
-## Purpose
+## Repository Structure
 
-Yasfiq AI OS turns AI from a collection of tools into a modular personal capability system. Markdown is the source of truth; platform-specific implementations are adapters.
+The repository is intentionally kept simple: each capability is a Skill, organized by domain.
 
-The current strategic direction is **AI-Powered Global Engineer**: combining software, AI, Electrical Engineering, IoT/robotics, English, and entrepreneurship.
+```text
+yasfiq-ai-os/
+├── skills/
+│   ├── university/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   ├── cross-domain/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   ├── builder/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   ├── business/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   ├── ai/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   ├── data/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   ├── career/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   ├── communication/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   ├── decision/
+│   │   └── <skill-name>/
+│   │       └── SKILL.md
+│   └── core/
+│       └── <skill-name>/
+│           └── SKILL.md
+└── README.md
+```
 
-## Architecture Status
+## Skill Format
 
-**Architecture baseline: v1.0 — implementation in progress**
+Each Skill lives in its own directory and uses a single canonical file:
 
-The conceptual architecture defines:
+```text
+skills/<domain>/<skill-name>/SKILL.md
+```
 
-- AI OS entrypoint
-- layered context and memory
-- intent routing
-- priority and energy-aware scheduling
-- modular Skills
-- reusable workflows
-- tool registry and platform adapters
-- verification and human approval
-- artifact lifecycle
-- evaluation and observability
-
-See `ARCHITECTURE.md` for the system contract.
+The `SKILL.md` file is the source of truth for that Skill's behavior, scope, workflow, and usage guidance.
 
 ## Design Principles
 
-- Portable first, platform second.
 - One academic subject = one isolated Subject Skill.
-- Subject Skill behavior is separated from mutable course context/materials.
-- Cross-subject capabilities live in reusable Skills.
-- AI amplifies learning and execution; it does not replace understanding.
-- Prefer workflows over isolated prompts.
-- Tool choice follows workflow, not hype.
-- Important work should create durable, reusable artifacts.
-- Personal, university, business, content, and company-work contexts stay separated.
-- Production Skills are versioned and evaluated.
+- Reusable capabilities are separate Skills.
+- Keep Skills modular and portable across AI platforms.
+- Keep each Skill self-contained.
+- Do not require platform-specific files inside the Skill itself.
+- Add course or project context directly when needed, without changing the repository's basic Skill structure.
 
-## Skill Layer Status
+## Current Status
 
-### University
+The repository currently contains the Yasfiq AI OS Skill Layer. Skills are developed incrementally and may have different maturity levels, as declared inside each `SKILL.md`.
 
-- Introduction to Electrical Engineering — production pilot.
-- Computational Thinking and Programming — scaffold.
-- Renewable Energy and Solar Panel Foundation — scaffold.
-- Career Design and Professional Development 1 — scaffold.
+The repository structure is intentionally minimal so the Skills can be reused in Gemini, ChatGPT, or other compatible AI environments without requiring a separate framework inside this repository.
 
-### Cross-Domain
+## Using a Skill
 
-- Learning Coach — scaffold.
-- Research Mentor — scaffold.
-- Information Literacy — scaffold.
-- English for Engineer — scaffold.
+Open the relevant `SKILL.md`, provide its instructions to the target AI platform, and then provide the context or task you want to work on.
 
-More Builder, Business, Content, and Life OS Skills will be added incrementally.
-
-## Repository Map
+For example:
 
 ```text
-core/       Personal context and operating principles
-skills/     Modular AI capabilities
-workflows/  Reusable procedures connecting Skills
-templates/  Standardized input/output artifacts
-adapters/   Platform-specific deployment instructions
-evals/      Behavioral tests and regression cases
-docs/       Architecture specifications and design contracts
+skills/university/introduction-electrical-engineering/SKILL.md
 ```
 
-## Important Boundary
+can be used as the behavior definition for an Introduction to Electrical Engineering tutor.
 
-AI Context Orchestrator is intentionally **not** part of the current Skill Factory architecture. Any integration will be considered later, after the core AI OS is validated through real use.
+## Scope Boundary
 
-## Current Phase
-
-Build the Skill Layer first. Subject Skills may be scaffolded without course materials; materials are added later to course context. The next implementation focus is expanding reusable Cross-Domain, Builder, Business, Content, and Life OS capabilities before deepening individual course contexts.
+This repository is the Skill Layer. Runtime orchestration, platform configuration, application code, and other implementation concerns are intentionally kept outside this minimal repository structure.
